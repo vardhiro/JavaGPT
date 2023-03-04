@@ -1,5 +1,5 @@
 # JavaGPT
-ChatGPT client in Java, with a simple Swing ui
+ChatGPT client in Java, with a simple Swing ui. It uses the `request.py` for making openai api request and uses the `Gui.java` for the Gui and presentation
 ## Prerequisites
 - A steady Java JRE & JDK installation
 - A steady Python installation
