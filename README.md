@@ -1,5 +1,8 @@
 # JavaGPT
 ChatGPT client in Java, with a simple Swing ui
+## Prerequisites
+- A steady Java JRE & JDK installation
+- A steady Python installation
 ## Setting it up
 To set it up, run `pip install openai` to install the openai python module which powers the connection of the request.py file to ChatGPT.
 Next, run `java Gui.java` to run the app
