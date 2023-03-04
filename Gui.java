@@ -19,7 +19,7 @@ class Gui {
     public static void main(String args[]) {
 
         //Creating the Frame
-        JFrame frame = new JFrame("Chat Frame");
+        JFrame frame = new JFrame("JavaGPT: Your ChatGPT client");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(Color.BLACK);
         frame.setSize(600, 600);
@@ -39,7 +39,7 @@ class Gui {
 		
         //Creating the panel at bottom and adding components
         JPanel panel = new JPanel(); // the panel is not visible in output
-        JLabel label = new JLabel("Enter Text");
+        JLabel label = new JLabel("Your Question: ");
         JTextField tf = new JTextField(32); // accepts upto 10 characters
         JButton send = new JButton("Send");
         JButton reset = new JButton("Reset");
